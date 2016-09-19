@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="352" max="-2" attributes="0"/>
+                          <Component id="btnNuevaBusqueda" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
+                          <Component id="btnRegresar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jScrollPane1" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblFechaDePartida" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblCantidadDeAdultos" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblOrigen" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtfCantidadDeAdultos" alignment="1" min="-2" pref="248" max="-2" attributes="0"/>
+                                      <Component id="txtfFechaDePartida" alignment="1" min="-2" pref="248" max="-2" attributes="0"/>
+                                      <Component id="txtfOrigen" alignment="1" min="-2" pref="248" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblDestino" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFechaDeRegreso" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblCantidadDeMenores" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="txtfDestino" min="-2" pref="248" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="txtfCantidadDeMenores" min="-2" pref="248" max="-2" attributes="0"/>
+                                              <Component id="txtfFechaDeRegreso" min="-2" pref="248" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="415" max="-2" attributes="0"/>
+                          <Component id="txtfVuelos" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="59" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  <Component id="txtfVuelos" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="93" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOrigen" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfOrigen" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDestino" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfDestino" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblFechaDePartida" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfFechaDePartida" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFechaDeRegreso" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfFechaDeRegreso" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblCantidadDeAdultos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfCantidadDeAdultos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCantidadDeMenores" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfCantidadDeMenores" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnNuevaBusqueda" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnRegresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="63" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="ResutadosBusquedaVuelo">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Vuelo" type="java.lang.Object"/>
+                    <Column editable="true" title="Fecha de partida" type="java.lang.String"/>
+                    <Column editable="true" title="Fecha de regreso" type="java.lang.String"/>
+                    <Column editable="true" title="Aereolinea" type="java.lang.String"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblOrigen">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*Origen de vuelo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfOrigen">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtfOrigenActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDestino">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*Destino de vuelo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfDestino">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFechaDePartida">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*Fecha de partida del vuelo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfFechaDePartida">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFechaDeRegreso">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fecha de regreso del vuelo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfFechaDeRegreso">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCantidadDeAdultos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*Cantidad de adultos en el vuelo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfCantidadDeAdultos">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCantidadDeMenores">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*Cantidad de menores en el vuelo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfCantidadDeMenores">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnNuevaBusqueda">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nueva b&#xfa;squeda"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNuevaBusquedaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnRegresar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Regresar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtfVuelos">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=" Vuelos a [destino]"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
