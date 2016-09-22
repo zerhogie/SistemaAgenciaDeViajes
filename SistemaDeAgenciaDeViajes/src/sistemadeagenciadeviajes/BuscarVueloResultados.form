@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
   </Properties>
@@ -23,17 +23,17 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel1">
+    <Container class="javax.swing.JPanel" name="jPanel2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -43,7 +43,7 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="352" max="-2" attributes="0"/>
@@ -52,49 +52,53 @@
                           <Component id="btnRegresar" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jScrollPane1" max="32767" attributes="0"/>
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="lblFechaDePartida" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lblCantidadDeAdultos" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lblOrigen" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtfCantidadDeAdultos" alignment="1" min="-2" pref="248" max="-2" attributes="0"/>
-                                      <Component id="txtfFechaDePartida" alignment="1" min="-2" pref="248" max="-2" attributes="0"/>
-                                      <Component id="txtfOrigen" alignment="1" min="-2" pref="248" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="lblDestino" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lblFechaDeRegreso" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lblCantidadDeMenores" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="txtfDestino" min="-2" pref="248" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="txtfCantidadDeMenores" min="-2" pref="248" max="-2" attributes="0"/>
-                                              <Component id="txtfFechaDeRegreso" min="-2" pref="248" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="415" max="-2" attributes="0"/>
                           <Component id="txtfVuelos" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblFechaDePartida1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblOrigen1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="txtfFechaDePartida1" min="-2" pref="248" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="lblFechaDeRegreso1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="txtfOrigen1" min="-2" pref="248" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="lblDestino1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Component id="lblCantidadDeAdultos1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtfCantidadDeAdultos1" min="-2" pref="248" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="lblCantidadDeMenores1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtfDestino1" alignment="0" min="-2" pref="248" max="-2" attributes="0"/>
+                              <Component id="txtfFechaDeRegreso1" alignment="0" min="-2" pref="248" max="-2" attributes="0"/>
+                              <Component id="txtfCantidadDeMenores1" alignment="0" min="-2" pref="248" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="860" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace pref="59" max="32767" attributes="0"/>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -103,35 +107,35 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                   <Component id="txtfVuelos" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="93" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lblOrigen" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtfOrigen" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblDestino" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtfDestino" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblOrigen1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfOrigen1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDestino1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfDestino1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lblFechaDePartida" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtfFechaDePartida" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblFechaDeRegreso" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtfFechaDeRegreso" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFechaDePartida1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfFechaDePartida1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFechaDeRegreso1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfFechaDeRegreso1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lblCantidadDeAdultos" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtfCantidadDeAdultos" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblCantidadDeMenores" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtfCantidadDeMenores" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCantidadDeAdultos1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfCantidadDeAdultos1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCantidadDeMenores1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfCantidadDeMenores1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="btnNuevaBusqueda" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnRegresar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="63" max="32767" attributes="0"/>
+                  <EmptySpace pref="47" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -154,30 +158,6 @@
                     <Column editable="true" title="Aereolinea" type="java.lang.String"/>
                   </Table>
                 </Property>
-                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
-                  <TableColumnModel selectionModel="0">
-                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                      <Title/>
-                      <Editor/>
-                      <Renderer/>
-                    </Column>
-                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                      <Title/>
-                      <Editor/>
-                      <Renderer/>
-                    </Column>
-                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                      <Title/>
-                      <Editor/>
-                      <Renderer/>
-                    </Column>
-                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                      <Title/>
-                      <Editor/>
-                      <Renderer/>
-                    </Column>
-                  </TableColumnModel>
-                </Property>
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>
@@ -185,50 +165,50 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JLabel" name="lblOrigen">
+        <Component class="javax.swing.JLabel" name="lblOrigen1">
           <Properties>
             <Property name="text" type="java.lang.String" value="*Origen de vuelo"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtfOrigen">
+        <Component class="javax.swing.JTextField" name="txtfOrigen1">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtfOrigenActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtfOrigen1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblDestino">
+        <Component class="javax.swing.JLabel" name="lblDestino1">
           <Properties>
             <Property name="text" type="java.lang.String" value="*Destino de vuelo"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtfDestino">
+        <Component class="javax.swing.JTextField" name="txtfDestino1">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblFechaDePartida">
+        <Component class="javax.swing.JLabel" name="lblFechaDePartida1">
           <Properties>
             <Property name="text" type="java.lang.String" value="*Fecha de partida del vuelo"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtfFechaDePartida">
+        <Component class="javax.swing.JTextField" name="txtfFechaDePartida1">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblFechaDeRegreso">
+        <Component class="javax.swing.JLabel" name="lblFechaDeRegreso1">
           <Properties>
             <Property name="text" type="java.lang.String" value="Fecha de regreso del vuelo"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtfFechaDeRegreso">
+        <Component class="javax.swing.JTextField" name="txtfFechaDeRegreso1">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblCantidadDeAdultos">
+        <Component class="javax.swing.JLabel" name="lblCantidadDeAdultos1">
           <Properties>
             <Property name="text" type="java.lang.String" value="*Cantidad de adultos en el vuelo"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtfCantidadDeAdultos">
+        <Component class="javax.swing.JTextField" name="txtfCantidadDeAdultos1">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblCantidadDeMenores">
+        <Component class="javax.swing.JLabel" name="lblCantidadDeMenores1">
           <Properties>
             <Property name="text" type="java.lang.String" value="*Cantidad de menores en el vuelo"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtfCantidadDeMenores">
+        <Component class="javax.swing.JTextField" name="txtfCantidadDeMenores1">
         </Component>
         <Component class="javax.swing.JButton" name="btnNuevaBusqueda">
           <Properties>
